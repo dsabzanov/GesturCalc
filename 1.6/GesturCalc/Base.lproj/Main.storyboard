@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina6_7" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21678"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22684"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -498,7 +498,7 @@
                                                                     <constraint firstAttribute="width" secondItem="SZm-1c-Wzx" secondAttribute="height" multiplier="1:1" id="QMM-Nb-VKv"/>
                                                                 </constraints>
                                                                 <fontDescription key="fontDescription" name="Helvetica-Light" family="Helvetica" pointSize="30"/>
-                                                                <state key="normal" title="3">
+                                                                <state key="normal" title="2">
                                                                     <color key="titleColor" red="0.90196078431372551" green="0.90196078431372551" blue="0.90196078431372551" alpha="1" colorSpace="calibratedRGB"/>
                                                                 </state>
                                                                 <variation key="widthClass=regular">
@@ -655,9 +655,9 @@
                                 </constraints>
                                 <variation key="widthClass=regular" axis="vertical">
                                     <mask key="constraints">
-                                        <include reference="BRh-Gt-MWe"/>
                                         <include reference="BVM-4L-zOp"/>
                                         <include reference="oUR-bf-e38"/>
+                                        <include reference="BRh-Gt-MWe"/>
                                         <include reference="wT4-Gh-5jX"/>
                                     </mask>
                                 </variation>
@@ -683,14 +683,14 @@
                                 </constraints>
                                 <variation key="default">
                                     <mask key="constraints">
-                                        <exclude reference="ItX-Pn-wdI"/>
                                         <exclude reference="zmt-f3-R8g"/>
+                                        <exclude reference="ItX-Pn-wdI"/>
                                     </mask>
                                 </variation>
                                 <variation key="widthClass=regular">
                                     <mask key="constraints">
-                                        <include reference="ItX-Pn-wdI"/>
                                         <include reference="zmt-f3-R8g"/>
+                                        <include reference="ItX-Pn-wdI"/>
                                     </mask>
                                 </variation>
                             </view>
@@ -722,9 +722,9 @@
                         </variation>
                         <variation key="widthClass=regular">
                             <mask key="constraints">
+                                <include reference="mmd-3I-XnM"/>
                                 <include reference="P3F-uK-Pzi"/>
                                 <include reference="TCb-Zi-DJ9"/>
-                                <include reference="mmd-3I-XnM"/>
                                 <include reference="n8e-X2-ZzN"/>
                             </mask>
                         </variation>
